@@ -1,0 +1,276 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    position: absolute;
+ }
+
+header {
+
+    position: relative;
+}
+
+.top-header {
+
+    background-color: #316DC3;
+    height: 50px;
+    text-align: center;
+    width: 100vw;
+}
+
+.fa-whatsapp {
+
+    color: white;
+    background-color: green;
+}
+
+.social-icons {
+
+    padding-top: 13px;
+}
+
+.social-icons > i {
+
+    margin-right: 20px;
+}
+
+.header-msg {
+
+    position: relative;
+    right: 40px;
+    color: white;
+    padding-top: 13px;
+}
+
+.header-buttons {
+
+    position: relative;
+    padding-top: 10px;
+    right: 50px;
+}
+
+button {
+    
+    color: #598527;
+    border: 1px solid #598527;
+    font-size: 12px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+.bottom-header {
+    height: 70px;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#saylaniLogo {
+
+    height: 60px;
+    width: 220px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#bottom-header-list {
+
+    
+    list-style-type: none;
+    width: 100%;
+    
+}
+
+#bottom-header-list li {
+
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 20px 0px;
+    height: 35px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+#bottom-header-list li:hover {
+
+    color: white;
+    background-color: #316DC3;
+    cursor: pointer;
+    
+
+}
+
+.carousel_slide {
+
+    width: 100%;
+
+}
+
+
+.marqueeNews {
+
+    color: #FFFFFF;
+    margin: 10px 5%;
+    background-color: rgb(38, 93, 170);
+}
+
+.newsTiming {
+
+    color: rgb(63, 228, 63);
+}
+
+.newsDetail {
+
+    color: rgb(3, 3, 44);
+}
+
+.counterContainer {
+
+    color: #FFFFFF;
+    background-color: #2755E9;
+    text-transform: uppercase;
+
+}
+
+.counterContainer h2 {
+
+    font-size: 3em;
+}
+
+.counterContainer h5 {
+
+    font-size: 1em;
+}
+
+.counterContainer .coloredMonth {
+
+    color: #07E128;
+    font-weight: bold;
+}
+
+.introContainer {
+
+    background-color: #F7F8FA;
+}
+
+.whatDoingContainer {
+
+    background-color: #F7F8FA;
+    padding-top: 10px;
+}
+
+.logoBox {
+
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logoBox > h4 {
+
+    color: #646de7;
+    text-transform: uppercase;
+
+}
+
+.projectContainer .coloredLine {
+
+    color: #719B40;
+    height: 5px;
+}
+
+.projectContainer h4 {
+
+    color: #467CC9;
+    text-transform: uppercase;
+}
+
+.projectBox {
+
+    background-color: #F7F8FA;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.projectBox h6 {
+
+    display: inline-block;
+    color: #467CC9;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+.marqueeEvents {
+
+    margin: 10px;
+}
+
+
+footer {
+    
+    color: rgba(255,255,255,0.3);
+    background-color: #25272E;
+}
+
+.fAddIcon {
+
+    color: rgba(155,204,59,0.5);
+}
+
+
+
+footer span.line{
+
+    
+    color: rgba(255,255,255,0.3);
+}
+
+footer span.coloredLine {
+
+    color: rgba(177, 252, 27, 0.5);
+}
+
+.bottomFooter {
+
+    color: #FFFFFF;
+    background-color: #316DD9;
+}
+
+.fa-chevron-up {
+
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    transition: 0.3s;
+}
+
+.fa-chevron-up:hover {
+
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    
+   
+}
